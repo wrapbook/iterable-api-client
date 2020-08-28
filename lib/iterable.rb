@@ -17,6 +17,7 @@ files = %w[
   campaigns
   channels
   events
+  in_app
   message_types
   templates
   email_templates

@@ -79,6 +79,7 @@ module Iterable
     def transmit(req)
       response = nil
       @net.start do |http|
+        puts req.uri
         response = http.request(req, nil, &:read_body)
       end
       handle_response response
