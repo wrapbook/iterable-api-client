@@ -24,7 +24,7 @@ RSpec.describe Iterable::InApp, :vcr do
     end
   end
 
-  fdescribe 'messages_for_user_id' do
+  describe 'messages_for_user_id' do
     let(:user_id) { 42 }
     let(:res) { subject.messages_for_user_id(user_id, platform: 'iOS') }
     let(:messages) { resp_body['inAppMessages'] }

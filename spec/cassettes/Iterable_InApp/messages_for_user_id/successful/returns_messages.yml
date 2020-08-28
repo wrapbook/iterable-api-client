@@ -41,3 +41,4 @@ http_interactions:
         string: '{"inAppMessages":[{"messageId":"string","campaignId":0,"createdAt":"2020-08-28T15:57:42.800Z","expiresAt":"2020-08-28T15:57:42.800Z","content":{"html":"string","inAppDisplaySettings":{"top":{},"right":{},"bottom":{},"left":{}}},"customPayload":{},"trigger":{"type":{}},"saveToInbox":true,"inboxMetadata":{"title":"string","subtitle":"string","icon":"string"}}]}'
       http_version:
     recorded_at: Wed, 19 Aug 2020 20:51:22 GMT
+t

@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage              = 'http://gitlab.com/mtchavez/iterable'
   s.rdoc_options          = %w[--charset=UTF-8 --main=README.md]
   s.extra_rdoc_files      = %w[README.md]
-  s.required_ruby_version = '>= 2.3.0'
+  s.required_ruby_version = '>= 2.4.0'
   s.cert_chain            = %w[certs/mtchavez.pem]
   s.signing_key           = File.join(Gem.user_home, '.ssh', 'gem-private_key.pem') if $PROGRAM_NAME.end_with?('gem')
 
