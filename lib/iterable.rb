@@ -33,6 +33,7 @@ files = %w[
   export
   json_exporter
   csv_exporter
+  push
 ]
 
 files.each { |path| require_relative "./iterable/#{path}" }
